@@ -1,0 +1,76 @@
+{
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "editor.fontSize": 18,
+  "editor.rulers": [100],
+  "editor.fontFamily": "Ligconsolata, IBM Plex Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabCompletion": "onlySnippets",
+  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.editor.showTabs": false,
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 52,
+  "editor.lineNumbers": "off",
+  "editor.glyphMargin": false,
+  "scm.diffDecorationsGutterWidth": 1,
+  "editor.renderIndentGuides": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["0", "-"],
+      "after": ["-", ">"]
+    },
+    {
+      "before": ["-", "="],
+      "after": ["=", ">"]
+    }
+  ],
+  "editor.folding": false,
+  "phpcs.executablePath": "/Users/jaggy/.composer/vendor/bin/phpcs",
+  "phpcs.standard": "PSR2",
+  "phpcs.ignorePatterns": ["*/tests/*", "*/database/*"],
+  "editor.fontLigatures": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
+  "vetur.validation.template": false,
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "[blade]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "workbench.fontAliasing": "auto",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false
+}

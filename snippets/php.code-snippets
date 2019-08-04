@@ -1,0 +1,71 @@
+{
+  "PHPUnit Test": {
+    "scope": "php",
+    "prefix": "test",
+    "body": ["function test_${1/[\\ ]+/_/g}()", "{", "    $0", "}"],
+    "description": "Create a new PHPUnit test."
+  },
+
+  "Feature Test": {
+    "scope": "",
+    "prefix": "testcase",
+    "body": [
+      "<?php",
+      "",
+      "namespace Tests\\Feature;",
+      "",
+      "use Tests\\TestCase;",
+      "use Illuminate\\Foundation\\Testing\\RefreshDatabase;",
+      "",
+      "class $TM_FILENAME_BASE extends TestCase",
+      "{",
+      "    use RefreshDatabase;",
+      "",
+      "    function setup(): void",
+      "    {",
+      "        parent::setup();",
+      "",
+      "        \\$this->be(User::factory()->create());",
+      "    }",
+      "",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "Test Case"
+  },
+
+  "Controller": {
+    "scope": "",
+    "prefix": "controller",
+    "body": [
+      "<?php",
+      "",
+      "namespace App\\Http\\Controllers;",
+      "",
+      "class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "Controller"
+  },
+
+  "Class": {
+    "scope": "",
+    "prefix": "class",
+    "body": [
+      "<?php",
+      "",
+      "namespace App;",
+      "",
+      "class $TM_FILENAME_BASE",
+      "{",
+      "    $0",
+      "}",
+      ""
+    ],
+    "description": "Class"
+  }
+}
