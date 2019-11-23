@@ -1,14 +1,14 @@
 {
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": false,
-  "editor.fontSize": 18,
+  "editor.fontSize": 17,
   "editor.rulers": [100],
   "editor.fontFamily": "Ligconsolata, IBM Plex Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.tabCompletion": "onlySnippets",
   "workbench.colorTheme": "Ayu Mirage",
   "workbench.editor.showTabs": false,
   "editor.minimap.enabled": false,
-  "editor.lineHeight": 52,
+  "editor.lineHeight": 36,
   "editor.lineNumbers": "off",
   "editor.glyphMargin": false,
   "scm.diffDecorationsGutterWidth": 1,
@@ -69,8 +69,12 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
   "workbench.fontAliasing": "auto",
   "editor.hideCursorInOverviewRuler": true,
-  "editor.overviewRulerBorder": false
+  "editor.overviewRulerBorder": false,
+  "editor.letterSpacing": -1,
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.letterSpacing": -1
 }
