@@ -67,5 +67,15 @@
       ""
     ],
     "description": "Class"
+  },
+
+  "Foreign": {
+    "scope": "",
+    "prefix": "foreign",
+    "body": [
+      "\\$table->unsignedBigInteger('$1');",
+      "\\$table->foreign('$1')->references('id')->on('$2')->onDelete('cascade');",
+    ],
+    "description": "Foreign key"
   }
 }
