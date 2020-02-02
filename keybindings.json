@@ -1,8 +1,13 @@
 // Place your key bindings in this file to override the defaults
 [
     { "key": "cmd+n",       "command": "newFile.createNewFile", },
-    { "key": "ctrl+x",       "command": "workbench.action.showCommands" },
+    { "key": "ctrl+x",      "command": "workbench.action.showCommands" },
     { "key": "ctrl+p",      "command": "workbench.action.quickOpen" },
     { "key": "cmd+o",       "command": "workbench.action.gotoSymbol" },
     { "key": "shift+cmd+o", "command": "workbench.action.files.openFileFolder" },
+
+    { "key": "ctrl+t o",     "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+t x",     "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+t n",     "command": "workbench.action.terminal.new" },
+    { "key": "ctrl+t k",     "command": "workbench.action.terminal.clear" },
 ]
