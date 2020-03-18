@@ -1,14 +1,13 @@
 {
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "workbench.activityBar.visible": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.rulers": [],
   "editor.fontFamily": "\"Ligalex Mono\", Ligconsolata, Monaco, 'Courier New', monospace",
   "editor.tabCompletion": "onlySnippets",
-  "workbench.colorTheme": "Ayu Mirage",
-  "workbench.editor.showTabs": false,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "editor.minimap.enabled": false,
-  "editor.lineHeight": 60,
+  "editor.lineHeight": 55,
   "editor.lineNumbers": "off",
   "editor.glyphMargin": false,
   "scm.diffDecorationsGutterWidth": 1,
@@ -46,7 +45,7 @@
   "editor.formatOnSave": false,
   "vetur.validation.template": false,
   "emmet.includeLanguages": {
-    "HTML (Eex)": "html",
+    "HTML (EEx)": "html",
     "postcss": "css"
   },
   "emmet.syntaxProfiles": {
@@ -72,14 +71,28 @@
   },
   "window.zoomLevel": 0,
   "workbench.fontAliasing": "auto",
-  "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.lineHeight": 1.45,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.65,
   "terminal.integrated.letterSpacing": -1,
   "editor.letterSpacing": -1.25,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "elixirLS.suggestSpecs": false
+  "elixirLS.suggestSpecs": false,
+  "scm.diffDecorations": "none",
+  "workbench.sideBar.location": "right",
+  "dimmer.enabled": true,
+  "dimmer.opacity": 70,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off",
+  "window.title": "",
+  "workbench.tips.enabled": false,
+  "workbench.editor.showTabs": false,
+  "vscode_custom_css.imports": [
+    "file:///Users/jaggy/Library/ApplicationSupport/Code/User/css/hide-tab-bar-line.css"
+  ]
 }
