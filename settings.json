@@ -5,7 +5,7 @@
   "editor.rulers": [],
   "editor.fontFamily": "\"Ligalex Mono\", Ligconsolata, Monaco, 'Courier New', monospace",
   "editor.tabCompletion": "onlySnippets",
-  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.colorTheme": "Ayu Mirage",
   "editor.minimap.enabled": false,
   "editor.lineHeight": 55,
   "editor.lineNumbers": "off",
