@@ -1,7 +1,7 @@
 #/usr/bin/bash
 
 # The command to list all code extensions:
-#     code --install-extension
+#     code --list-extension
 
 extensions=(
   be5invis.vscode-custom-css
